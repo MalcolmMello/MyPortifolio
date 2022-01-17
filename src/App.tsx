@@ -1,8 +1,14 @@
-import { Header } from './components/header'
+import { Header } from './components/Header'
+import { MyData } from './components/MyData'
+import { About } from './components/About'
 
 function App() {
 	return (
-		<Header />
+		<>
+			<Header />
+			<MyData />
+			<About />
+		</>
 	);
 }
 

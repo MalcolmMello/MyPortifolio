@@ -4,6 +4,7 @@ export const HeaderArea = styled.header`
     .container {
         display: flex;
         width: 1024px;
+        height: 90px;
         justify-content: space-between;
         align-items: center;
         margin: auto;
