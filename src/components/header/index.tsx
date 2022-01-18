@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <C.HeaderArea>
             <div className='container'>
-                <h1>Portfólio</h1>
+                <h1>Malcolm Lima</h1>
                 <ul>
                     <li>Sobre mim</li>
                     <li>Projetos</li>

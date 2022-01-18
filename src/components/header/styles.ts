@@ -15,7 +15,7 @@ export const HeaderArea = styled.header`
             list-style-type: none;
 
             li {
-                margin-right: 20px;
+                margin-right: 50px;
                 cursor: pointer
             }
         }
