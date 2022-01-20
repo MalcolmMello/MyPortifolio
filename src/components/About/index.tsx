@@ -8,16 +8,16 @@ export const About = () => {
                 <div className='pic--area'>
                     <div className='pic--item'>
                         <img className='perfil--img' src={mypic} alt="" />
-                        <h3>Malcolm Lima</h3>
+                        <h2>Malcolm Lima</h2>
                         <div className='social--media'>
-                            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"/>
-                            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png"/>
-                            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/linkedin.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/github.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/youtube-play.png"/>
                         </div>
                     </div>
                 </div>
                 <div className='about--area'>
-                    <h1>Sobre</h1>
+                    <h1><img src="https://img.icons8.com/windows/32/5CC4C4/about-us-male--v1.png"/>Sobre</h1>
                     <div className='about--item'>
                         <h3>Conheça um pouco sobre mim</h3>
                         <p>

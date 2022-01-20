@@ -6,13 +6,16 @@ export const MyData = () => {
         <C.MyName>
             <div className='container'>
                 <div className='data--area'>
-                    <h1>Olá, eu sou o <br />
+                    <p className='frontend--title'>DESENVOLVEDOR FRONT-END</p>
+                    <h1>
                         Malcolm Lima 
                     </h1>
-                    <p>Desenvolvedor Front-End</p>
+                    <p>Sou desenvolvedor Front-End, esse é meu <br />
+                    portfólio, espero que goste e seja bem-vindo! <br />
+                    Meu currículo:
+                    </p>
                     <div className='button--area'>
-                        <button className='green--button'>Download CV</button>
-                        <button className='black--button'>Entrar em contato</button>
+                        <button className='green--button'>BAIXAR CURRÍCULO</button>
                     </div>
                 </div>
                 <div className='img--area'>

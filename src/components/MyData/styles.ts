@@ -9,7 +9,12 @@ export const MyName = styled.section`
         display: flex;
         width: 1024px;
         margin: auto;
-        justify-content: space-between
+        justify-content: space-between;
+        .img--area {
+            img {
+                width: 400px;
+                height: 400px;
+            }
     }
 
     .data--area {
@@ -17,7 +22,10 @@ export const MyName = styled.section`
             color: #FFF;
         }
         p {
-            color: #828282
+            color: #FFF
+        }
+        .frontend--title {
+            color: #5CC4C4;
         }
     }
     
@@ -25,19 +33,14 @@ export const MyName = styled.section`
         margin-top: 30px;
 
         button {
-            cursor: pointer;
             height: 42px;
-            width: 143px;
-            border: none;
-            margin-right: 15px
-        }
-        .green--button {
-            background-color: #00DF5E;
-        }
-        .black--button {
-            color: #FFF;
+            font-size: 17px;
+            padding: 0px 20px;
+            color: #5CC4C4;
+            border: 2px solid #5CC4C4;
             background: none;
-            border: 1px solid #212121
+            cursor: pointer;
+            margin-right: 15px
         }
     }
 `

@@ -19,6 +19,9 @@ export const ProjectsArea = styled.section`
                 width: 100%;
                 margin: auto;
                 color: #FFF;
+                background-color: #2b3443;
+                padding: 5px 5px;
+                border-radius: 5px;
                 
                 img {
                     height: 150px;

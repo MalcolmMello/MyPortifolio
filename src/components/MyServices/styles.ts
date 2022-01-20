@@ -21,9 +21,9 @@ export const ServicesArea = styled.section`
                     width: 350px;
                     margin: auto;
                     align-items: flex-end;
-                    background-color: #212121;
-                    color: #828282;
-                    border-bottom: 3px solid #00DF5E;
+                    background-color: #2b3443;
+                    color: #FFF;
+                    border-bottom: 3px solid #5CC4C4;
                     padding: 0px 10px;
                     
                     img {

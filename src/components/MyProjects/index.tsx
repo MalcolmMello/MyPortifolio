@@ -21,21 +21,6 @@ export const Projects = () => {
                         <h3>Título do projeto</h3>
                         <p>Descrição</p>
                     </div>
-                    <div className='project--item'>
-                        <img src="" alt="" />
-                        <h3>Título do projeto</h3>
-                        <p>Descrição</p>
-                    </div>
-                    <div className='project--item'>
-                        <img src="" alt="" />
-                        <h3>Título do projeto</h3>
-                        <p>Descrição</p>
-                    </div>
-                    <div className='project--item'>
-                        <img src="" alt="" />
-                        <h3>Título do projeto</h3>
-                        <p>Descrição</p>
-                    </div>
                 </div>
             </div>
         </C.ProjectsArea>
