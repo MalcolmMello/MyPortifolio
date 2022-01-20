@@ -21,7 +21,14 @@ export const About = () => {
                     <div className='about--item'>
                         <h3>Conheça um pouco sobre mim</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare, enim et fringilla eleifend, ipsum turpis iaculis velit, sit amet placerat ligula est ut justo. Morbi consequat ligula ac molestie fermentum. Suspendisse eget placerat erat, a aliquam nunc. Nunc mollis tellus dignissim justo egestas, a egestas dui ultricies. Phasellus consectetur nunc diam, ut ullamcorper eros vehicula eget. Cras sagittis et quam quis aliquet. Nam rutrum laoreet est, at vehicula lacus porttitor vel. Nunc rhoncus, quam id eleifend pharetra, ex quam tincidunt arcu, eget convallis libero ex sed neque. Nam nec rhoncus purus. Ut ac magna dictum, egestas augue eu, semper lacus. Mauris sed odio id orci sodales rhoncus. Sed sagittis, erat volutpat egestas ultrices, urna ex consectetur nisl, ac tempus justo libero eu lacus. Nam vel vehicula elit.
+                            Meu nome é Malcolm Lima, e sou desenvolvedor Front-End. Tenho experiência de 
+                            cerca de 7 meses, e posso dizer que domino ReactJS, Javascript, Typescript, HTML5 e CSS3.
+                            Desenvolvi aplicações onde utilizei consumo de API, Design responsivo, HTML semântico, Rotas
+                            (diversas páginas), e funcionalidades como Axios, Styled-Components, React-Router, ContextAPI, Hooks,
+                            LocalStorage, States e Eventos.
+                            Você pode ver mais sobre meus projetos na área Projetos abaixo, e nas minhas redes ao lado (
+                                LinkedIn, GitHub e YouTube
+                            ).
                         </p>
                     </div>
                 </div>

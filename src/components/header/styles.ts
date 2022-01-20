@@ -16,7 +16,13 @@ export const HeaderArea = styled.header`
 
             li {
                 margin-right: 50px;
-                cursor: pointer
+                cursor: pointer;
+                border-bottom: 2px solid transparent;
+                padding: 10px 0px;
+                transition: all ease 0.3s;
+            }
+            li:hover {
+                border-bottom: 1px solid #5CC4C4
             }
         }
     }

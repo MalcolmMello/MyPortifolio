@@ -1,5 +1,7 @@
 import * as C from './styles'
 import meuportifolioimg from '../../assets/meuportifolioimg.png'
+import pdf from '../../files/MyResume.pdf'
+import { Link } from 'react-router-dom'
 
 export const MyData = () => {
     return (
@@ -15,7 +17,8 @@ export const MyData = () => {
                     Meu currículo:
                     </p>
                     <div className='button--area'>
-                        <button className='green--button'>BAIXAR CURRÍCULO</button>
+                    <a href={pdf} target="_blank" download>BAIXAR CURRÍCULO</a>
+
                     </div>
                 </div>
                 <div className='img--area'>

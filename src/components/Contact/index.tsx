@@ -5,7 +5,7 @@ export const Contact = () => {
         <C.ContactArea>
             <div className='container'>
                 <h1>Contato</h1>
-                <p>Minhas informações para entrar em contato comigo. Será um prazer atendê-lo
+                <p className='first--p'>Minhas informações para entrar em contato comigo. Será um prazer atendê-lo.
                 </p>
                 <div className='contact--area'>
                     <div className='contact--item'>
@@ -14,15 +14,15 @@ export const Contact = () => {
                     </div>
                     <div className='contact--item'>
                         <img src="https://img.icons8.com/ios-filled/24/5CC4C4/email-open.png"/>
-                        <p>malcolmmellolima@gmail.com</p>
+                        <a href='mailto:malcolmmellolima@gmail.com' target="_blank">malcolmmellolima@gmail.com</a>
                     </div>
                     <div className='contact--item'>
                         <img src="https://img.icons8.com/material-outlined/24/5CC4C4/github.png"/>
-                        <p>https://github.com/MalcolmMello</p>
+                        <a href='https://github.com/MalcolmMello' target="_blank">https://github.com/MalcolmMello</a>
                     </div>
                     <div className='contact--item'>
                         <img src="https://img.icons8.com/ios-glyphs/24/5CC4C4/linkedin.png"/>
-                        <p>https://www.linkedin.com/in/malcolm-de-mello-a8208a224/</p>
+                        <a href='https://www.linkedin.com/in/malcolm-de-mello-a8208a224/' target="_blank">https://www.linkedin.com/in/malcolm-de-mello-a8208a224/</a>
                     </div>
                 </div>
             </div>

@@ -32,15 +32,16 @@ export const MyName = styled.section`
     .button--area {
         margin-top: 30px;
 
-        button {
+        a {
             height: 42px;
             font-size: 17px;
-            padding: 0px 20px;
+            padding: 10px 20px;
             color: #5CC4C4;
             border: 2px solid #5CC4C4;
             background: none;
             cursor: pointer;
-            margin-right: 15px
+            margin-right: 15px;
+            text-decoration: none
         }
     }
 `

@@ -6,19 +6,28 @@ export const ContactArea = styled.section`
         width: 1024px;
         margin: auto;
         h1, p {
-            color: #FFF
+            color: #FFF;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .first--p {
+            margin-bottom: 30px;
         }
 
         .contact--area {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            grid-gap: 30px;
 
             .contact--item {
                 display: flex;
                 align-items: center;
-                p {
+                a, p {
                     color: #FFF;
                     margin-left: 10px;
+                    text-decoration: none;
                 }
 
                 img {

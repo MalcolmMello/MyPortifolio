@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const AboutItem = styled.section`
-    background-color: #2b3443;    
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #2b3443;  
+
     .container {
         width: 1024px;
         margin: auto;

@@ -16,20 +16,33 @@ export const ProjectsArea = styled.section`
             grid-gap: 10px;
 
             .project--item {
+                height: 336px;
                 width: 100%;
                 margin: auto;
                 color: #FFF;
                 background-color: #2b3443;
-                padding: 5px 5px;
+                padding: 10px 10px;
                 border-radius: 5px;
+                text-decoration: none;
+                border-bottom: 1px solid #5CC4C4;
+                transition: all ease 0.3s;
                 
-                img {
+                img, .fake--img {
                     height: 150px;
-                    width: 100%
+                    width: 100%;
+                    object-fit: cover;
                 }
+                .fake--img {
+                    background-color: #202733
+                } 
                 p {
-                    color: #828282
+                    font-weight: 300;
+                    color: #fff
                 }
+            }
+            .project--item:hover {
+                box-shadow: 0px 0px 1em #5CC4C4;
+                border: none;
             }
         }
     }
